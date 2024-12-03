@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+html { font-size: 20px;
+ }
+
+body {
+    
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2em;
+    border-bottom: solid 3px rgb(115,115,114);
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 3px gray;
+
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+      
+
+}
+
+.pink {
+    color: rgb(255,192,203);
+}
+.blue{
+    color: skyblue;
+ }
+
+ #basic p{ 
+    font-weight: bold;
+}
