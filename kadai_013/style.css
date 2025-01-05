@@ -61,7 +61,6 @@ PC用のスタイル
   #nav-pc > a:active {
     color: #0d0d0d;
   }
-}
 
 #menu-sp {
   display: none;
@@ -70,6 +69,8 @@ PC用のスタイル
 #nav-sp {
   display: none;
 }
+}
+
 
 /* スマホ用 */
 @media screen and (max-width: 767px) {
@@ -77,10 +78,9 @@ body {
   min-width: 375px;
   margin: 0;
 }
-}
 
 #nav-pc {
-  display: block;
+  display:none;
 }
 
 #menu-sp {
@@ -147,4 +147,5 @@ body {
   background-image: url("imges/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
+}
 }
